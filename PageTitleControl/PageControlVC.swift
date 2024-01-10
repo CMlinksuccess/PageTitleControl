@@ -41,7 +41,6 @@ extension PageControl : PagetitleViewDelegate, PageTitleVCsDelegate {
     func titleViewSelectedAt(_ index: Int) {
         pageVC.scrollToPageAtIndex(index)
     }
-    
     func pageControlsSelectedAt(_ index: Int) {
         titleView.select(index: index)
     }

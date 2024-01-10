@@ -166,7 +166,6 @@ class PageTitleView: UIView{
         }else if rightx < self.center.x {
             scrollView.setContentOffset(CGPoint(x: contentx - self.frame.width, y: 0), animated: true)
         }
- 
     }
   
     override func layoutSubviews() {

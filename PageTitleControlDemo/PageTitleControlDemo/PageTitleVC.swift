@@ -52,7 +52,6 @@ class PageTitleVC: BaseVC {
             print("选中了\(idx),\(title)")
         }
     }
-   
 }
 //滑动标题demo
 class ScrollTitleVC: BaseVC {
