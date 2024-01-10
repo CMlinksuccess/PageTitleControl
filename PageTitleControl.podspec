@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PageTitleControl"
   spec.version      = "1.0.0"
-  spec.swift_version      = "5.0"
+  spec.swift_version = "5.0"
   spec.summary      = "PageTitleControl 提供多标题和页面联动"
   spec.description  = <<-DESC
                             PageTitleControl 是一个添加滚动标题和页面联动的控件，也可单独添加标题滑动，单独多页面滑动
@@ -29,7 +29,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '13.0'
   spec.requires_arc = true
   
-  spec.resource  = 'PullDownListSwift/PullDownListSwift/pullDownListSwift.bundle'
   spec.source_files  = 'PageTitleControl/PageTitleControl/*.{swift,h}'
   spec.frameworks = 'UIKit'
   
