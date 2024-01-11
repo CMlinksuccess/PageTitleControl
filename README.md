@@ -3,7 +3,7 @@
 
 ## 效果图
 
-<img src="https://github.com/CMlinksuccess/PageTitleControl/blob/main/resouce/tu1.png" width="250" height="500" alt="效果图1"><img src="https://github.com/CMlinksuccess/PageTitleControl/blob/main/resouce/x1hej-ewsx6.gif" width="250" height="500" alt="效果图git">
+<img src="https://github.com/CMlinksuccess/PageTitleControl/blob/main/resouce/tu1.png" width="250" height="500" alt="效果图1">  <img src="https://github.com/CMlinksuccess/PageTitleControl/blob/main/resouce/x1hej-ewsx6.gif" width="250" height="500" alt="效果图git">
 
 ## CocoaPods使用
 
