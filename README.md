@@ -37,9 +37,9 @@ $ pod install
 ```
 # 单独创建标题点击和滑动
 ```swift 
-var titleView:PageTitleView!
+ var titleView:PageTitleView!
 
-titleView = PageTitleView(frame: CGRect(x: 0, y: 150, width: view.frame.width, height: 45), titles: texts, completion: { index, title in
+ titleView = PageTitleView(frame: CGRect(x: 0, y: 150, width: view.frame.width, height: 45), titles: texts, completion: { index, title in
             print("选中的标题\(index),\(title)")
         })
         titleView.selectColor = .brown
@@ -52,7 +52,7 @@ titleView = PageTitleView(frame: CGRect(x: 0, y: 150, width: view.frame.width, h
 ```
 # 单独创建滑动控制器
 ```swift
-var pageVC:PageTitleVCs!
+ var pageVC:PageTitleVCs!
 
  let vcs = createControls()
         pageVC = PageTitleVCs(controllers: vcs, frame: CGRect(x: 0, y: 150, width: view.frame.width, height: view.frame.height - 160),delegate:self)
@@ -60,8 +60,10 @@ var pageVC:PageTitleVCs!
         
         self.addChild(pageVC)
         self.view.addSubview(pageVC.view)
+```swift
 监听滑动时返回当前控制器index 监听代理 PageTitleVCsDelegate
-
+```
+```swift
 func pageControlsSelectedAt(_ index: Int) {
         print("控制器选中了\(index)")
     }
