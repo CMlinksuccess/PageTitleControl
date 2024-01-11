@@ -8,8 +8,9 @@
 ## CocoaPods使用
 
 在Podfile文件中添加：
-
+```swift
 pod 'PageTitleControl'
+```
 然后，执行下面命令：
 ```
 $ pod install
