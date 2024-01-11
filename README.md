@@ -60,14 +60,15 @@ $ pod install
         
         self.addChild(pageVC)
         self.view.addSubview(pageVC.view)
-```swift
-监听滑动时返回当前控制器index 监听代理 PageTitleVCsDelegate
 ```
+
+监听滑动时返回当前控制器index 监听代理 PageTitleVCsDelegate
 ```swift
 func pageControlsSelectedAt(_ index: Int) {
         print("控制器选中了\(index)")
     }
 ```
+
 上述代码公用参数：
 ```swift
 let texts = ["标题1","标题2","标题比较长3","标题很长很长4","标题5","标题6","标题7"]
