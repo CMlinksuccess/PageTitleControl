@@ -3,7 +3,8 @@
 
 ## 效果图
 
- 
+ <img src="https://github.com/CMlinksuccess/PageTitleControl/blob/main/resouce/tu1.png" width="250" height="500" alt="效果图1">
+ <img src="https://github.com/CMlinksuccess/PullDownListSwift/blob/master/EffectDrawing/image1.PNG" width="250" height="500" alt="效果图1">
 
 ## CocoaPods使用
 
