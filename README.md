@@ -5,6 +5,13 @@
 
 <img src="https://github.com/CMlinksuccess/PageTitleControl/blob/main/resouce/x1hej-ewsx6.gif" width="250" height="500" alt="效果图git">  
 
+## Swift Package Manager
+请将以下添加到Package.swift的依赖项值中：
+```
+dependencies: [
+    .package(url: "https://github.com/CMlinksuccess/PageTitleControl.git", .upToNextMajor(from: "1.0.0"))
+]
+```
 ## CocoaPods使用
 
 在Podfile文件中添加：
